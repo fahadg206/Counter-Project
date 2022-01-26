@@ -8,3 +8,8 @@ increase.addEventListener('click', function(){
     liveCount += 1;
     counter.innerHTML = liveCount;
 });
+
+decrease.addEventListener('click', function() {
+    liveCount -= 1;
+    counter.innerHTML = liveCount;
+})
