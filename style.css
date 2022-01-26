@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ #count {
+    border: 5px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    border-width: 5px;
+    
+    
+}
+
+
+
+#buttons  {
+    display: flex;
+    justify-content: center;
+}
+
+
+#increase, #decrease {
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+#increase {
+    color: green;
+
+}
+
+#decrease {
+    color: red;
+}
